@@ -1,0 +1,25 @@
+# Evolution Config Template
+# Controls self-improvement loops for any project with agents
+
+schedule:
+  cooldown_between_agents_seconds: 30
+
+budget:
+  max_cost_per_night_usd: 15
+  max_cost_per_agent_usd: 5
+
+iteration_limits:
+  max_per_agent: 20
+  circuit_breaker: 5                         # Stop after N consecutive non-improvement iterations
+
+git:
+  branch_prefix: "evolve/"
+  auto_merge_on_improvement: true
+  auto_revert_on_regression: true
+
+# List agents to evolve here. The meta-agent (if any) should NOT evolve itself.
+agents_to_evolve: []
+
+reporting:
+  write_log: true
+  log_path: "data/evals/evolution-log.jsonl"
