@@ -50,23 +50,7 @@ cp ~/.claude-default/agents/TEMPLATE.md .claude/agents/
 cp ~/.claude-default/config/evolution-config.yaml config/
 ```
 
-### Existing project — add missing pieces
 
-Compare what you have with what's here and copy what's missing.
-
-## What This Does NOT Include
-
-Excluded because Hydra never used them:
-
-- zibe-\* commands (16 commands — bootstrap, check, dashboard, etc.)
-- Global agents (code-reviewer, self-critic, tdd-test-writer, tdd-implementer, ui-tester)
-- Global docs (MANUAL.md, ARCHITECTURE.md, PATTERNS.md, etc.)
-- Proof protocol (zibe-prove, zibe-sync-todo)
-- Model/effort enforcement (zibe-model, zibe-effort, zibe-enforcement)
-
-These exist in ~/.claude/ and may be useful for other workflows, but were not load-bearing for the Hydra project.
 
 ## Origin
-
-Extracted 2026-04-06 from the Hydra project (agentic hedge fund OS).
-Hydra proved: hooks → rules → Implementation Protocol → /build → /evolve → /simplify is a complete development loop.
+Experience based flow proved: hooks → rules → Implementation Protocol → /build → /evolve → /simplify is a complete development loop.
