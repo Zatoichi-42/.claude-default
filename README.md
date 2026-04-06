@@ -52,5 +52,4 @@ cp ~/.claude-default/config/evolution-config.yaml config/
 
 
 
-## Origin
-Experience based flow proved: hooks → rules → Implementation Protocol → /build → /evolve → /simplify is a complete development loop.
+
